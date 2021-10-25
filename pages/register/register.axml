@@ -3,13 +3,14 @@
     <image mode="scaleToFill" id="logo" alt= "logo" src="https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg"/>
   </view>
   <view class="cont-titulo">
-    <text class="titulo">INGRESAR</text>
+    <text class="titulo">REGISTRO</text>
   </view>
 
   <view class="cont-form-login">
     <form class="form-login">
       <input placeholder="Correo Electronico " id="correo" />
       <input password="true" placeholder="Contraseña " id="contra"/>
+      <input password="true" placeholder="Confirme la Contraseña " id="contra"/>
       <button size="default" type="primary">INGRESAR</button>
     </form>  
   </view>
