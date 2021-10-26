@@ -1,14 +1,15 @@
 Page({
   data: {},
   onLoad() { },
-  Registrarse(a) {
+  Registrarse(a,e) {
 
 
-    my.showLoading({
-      content: 'Cargando...',
-      delay: 1000
-    });
-    if (a.detail.value.contra === a.detail.value.contra2) {
+    // my.showLoading({
+    //   content: 'Cargando...',
+    //   delay: 1000
+    // });
+    my.alert({title: e.detail.value});
+    if (a.detail.value["mail"] === a.detail.value["pass1"]) {
       my.alert({
         title: 'Registro Exitoso',
         content: 'Se ha registrado con exito el usuario',
@@ -30,6 +31,20 @@ Page({
     
 
   }
-  my.hideLoading();
-}
+  // my.hideLoading();
+},
+formSubmit: function(e) {
+    console.log('form has a submit event, carrying data ', e.detail.value)
+    my.alert({title: e.detail.value.mail})
+    if (e.detail.value.pass1 == e.detail.value.pass2){
+      my.alert({
+        title: "Usuario registrado",
+        content: "Usuario registrado exitosamente",
+        buttonText: "Ok",
+      })
+      my.navigateTo({
+        url: '...'
+      })  
+    }
+  }
 });

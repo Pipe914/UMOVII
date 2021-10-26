@@ -8,11 +8,14 @@
   </view>
 
   <view class="cont-form-login">
-    <form class="form-login" onSubmit="Registrarse">
-      <input placeholder="Correo Electronico " name="correo" id="correo" />
-      <input password="true" placeholder="Contraseña " name="contra" id="contra"/>
-      <input password="true" placeholder="Confirme la Contraseña " name="contra2" id="contra2"/>
-      <button size="default" type="primary" form-type="submit" onTap="Registrarse" >INGRESAR</button>
+    <form class="form-login" onSubmit="formSubmit">
+      <input placeholder="Correo Electronico " name="mail"  id="correo" />
+      <input password="true" placeholder="Contraseña " name="pass1" id="contra"/>
+      <input password="true" placeholder="Confirme la Contraseña" name="pass2"  id="contra2"/>
+      <view class="btn-area">
+    <button formType="submit">Submit</button>
+    </view>
+      <!-- <button size="default" type="primary" form-type="submit"  >INGRESAR</button> -->
     </form>  
   </view>
     
