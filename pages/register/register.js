@@ -7,9 +7,7 @@ Page({
     my.switchTab({ url: "../login/login" })
   },
   formSubmit: function (e) {
-    console.log('form has a submit event, carrying data ', e.detail.value)
-    my.alert({ title: e.detail.value.mail })
-    if (e.detail.value.pass1 == e.detail.value.pass2 && e.detail.value.mail!="") {
+    if (e.detail.value.pass1 == e.detail.value.pass2 && e.detail.value.mail!="" && e.detail.value.mail.includes("@unisabana.edu.co")) {
       my.alert({
         title: "Usuario registrado",
         content: "Usuario registrado exitosamente",

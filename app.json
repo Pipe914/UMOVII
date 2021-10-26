@@ -15,6 +15,7 @@
     ]
   },
   "pages": [
+    
     "pages/firstLogin/firstLogin1/firstLogin1",
     "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/firstLogin/firstLogin2/firstLogin2",
