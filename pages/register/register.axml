@@ -1,3 +1,4 @@
+
 <view class="cont-full-page">
   <view class="cont-logo">
     <image mode="scaleToFill" id="logo" alt= "logo" src="https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg"/>
@@ -7,11 +8,11 @@
   </view>
 
   <view class="cont-form-login">
-    <form class="form-login">
-      <input placeholder="Correo Electronico " id="correo" />
-      <input password="true" placeholder="Contraseña " id="contra"/>
-      <input password="true" placeholder="Confirme la Contraseña " id="contra"/>
-      <button size="default" type="primary">INGRESAR</button>
+    <form class="form-login" onSubmit="Registrarse">
+      <input placeholder="Correo Electronico " name="correo" id="correo" />
+      <input password="true" placeholder="Contraseña " name="contra" id="contra"/>
+      <input password="true" placeholder="Confirme la Contraseña " name="contra2" id="contra2"/>
+      <button size="default" type="primary" form-type="submit" onTap="Registrarse" >INGRESAR</button>
     </form>  
   </view>
     
