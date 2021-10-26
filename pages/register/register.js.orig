@@ -1,11 +1,7 @@
 Page({
-  data: {
-	title: "Registro
-  },
+<<<<<<< HEAD
+  data: {},
   onLoad() { },
-	go(){
-	my.switchTab({url: "../login/login"})
-	},
   Registrarse(a,e) {
 
 
@@ -51,5 +47,13 @@ formSubmit: function(e) {
         url: '...'
       })  
     }
+=======
+  data: {
+    title: "Registro"
+  },
+  onLoad() {},
+  go(){
+    my.switchTab({url:"../login/login"})
+>>>>>>> 482cb588ececbfbfdad6cd9a1a09baf5679ac87d
   }
 });
