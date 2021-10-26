@@ -1,4 +1,5 @@
 {
+  
   "pages": [
     "pages/register/register",
     "pages/login/login",
@@ -7,4 +8,5 @@
   "window": {
     "defaultTitle": "My App"
   }
+  
 }
