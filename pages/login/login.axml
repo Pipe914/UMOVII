@@ -7,10 +7,10 @@
   </view>
 
   <view class="cont-form-login">
-    <form class="form-login">
-      <input placeholder="Correo Electronico " id="correo" />
-      <input password="true" placeholder="Contraseña " id="contra"/>
-      <button size="default" type="primary">INGRESAR</button>
+    <form class="form-login" onSubmit="formSubmit">
+      <input placeholder="Correo Electronico " name="mail" id="correo" />
+      <input password="true" placeholder="Contraseña " name="pass" id="contra"/>
+      <button size="default" type="primary" formType="submit">INGRESAR</button>
     </form>  
   </view>
     
