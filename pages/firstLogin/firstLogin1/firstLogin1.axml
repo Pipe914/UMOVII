@@ -1,0 +1,19 @@
+<view class="full-page">
+  <view class="cont-name-app">
+    <text class="name-app">UMOVI</text>
+  </view>
+  <view class="cont-image">
+    <image class="car" alt="Car" mode="aspectFit" src="https://i.ibb.co/yRbrPXG/car1.png"/>
+  </view>
+  <view class="cont-slider">
+    <image class="slider" alt="Slider" mode="aspectFit" src="https://i.ibb.co/kK0G8jD/Slider1.png"/>
+  </view>
+  <view class="cont-text">
+    <text class="text-1">ENCUENTRA TU VEHICULO</text>
+    <text class="text-2">La forma mas segura de llegar al campus</text>
+    <text class="text-2">llegar al campus</text>
+  </view>
+  <view class="cont-button">
+    <button size="default" type="primary" class="button">Continuar</button>
+  </view>
+</view>

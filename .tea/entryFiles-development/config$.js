@@ -2,6 +2,6 @@
 const g = typeof global !== 'undefined' ? global : self;
 g.appXAppJson = {
   "app": {
-    "$homepage": "pages/register/register"
+    "$homepage": "pages/firstLogin/firstLogin3/firstLogin3"
   }
 };
