@@ -22,4 +22,5 @@
       <button size="default" type="primary" class="botonConfirmar"><text>Confirmar</text><image  mode="aspectFit" src="https://i.ibb.co/1rwm1Xv/Casa.png"/></button>
     </view>
   </view>
+  <map id="map" class="mapa1"  longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" show-location ></map>
 </view>
