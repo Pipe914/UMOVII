@@ -1,0 +1,12 @@
+
+<view class="mapview">
+
+ <button size="default" type="primary" onTap="getLoc">Get location</button>
+  <text > La: {{latitude}} Lo: {{longitude}}</text>
+ 
+
+  <map id="map" longitude="-74.034242" latitude="4.862671" scale="8"></map>
+
+ 
+ 
+</view>

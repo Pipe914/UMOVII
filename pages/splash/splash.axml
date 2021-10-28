@@ -1,0 +1,25 @@
+<view class="ContenedorPrincipal">
+  <view class="topbar">
+      <image class="imageprofile" alt="ProfPic" mode="aspectFit" src="https://i.ibb.co/1rwm1Xv/Casa.png"/>
+      <image  class="imageicon" alt="bellicon" mode="aspectFit" src="https://i.ibb.co/1rwm1Xv/Casa.png"/>
+  </view>
+  <view class="bottomContenedor">
+    <view class="info">
+      <text class="SeleccionText">Selecciona tu punto de partida</text>
+      <text class="fraseText">Viajemos juntos</text>
+    </view>
+    <view class="destinopartida">
+      <view class="puntoPartida">
+        <image  class="imageiconpartida" alt="bluedot" mode="aspectFit" src="https://i.ibb.co/1rwm1Xv/Casa.png"/>
+        <text class="textpuntopartida">Punto de partida</text>
+      </view>
+      <view class="destino">
+        <image  class="imageicondestino" alt="mapmarker" mode="aspectFit" src="https://i.ibb.co/1rwm1Xv/Casa.png"/>
+        <text  class="textpuntopartida">Destino</text>
+      </view>
+    </view>
+    <view class="boton">
+      <button size="default" type="primary" class="botonConfirmar"><text>Confirmar</text><image  mode="aspectFit" src="https://i.ibb.co/1rwm1Xv/Casa.png"/></button>
+    </view>
+  </view>
+</view>
