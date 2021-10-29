@@ -1,24 +1,32 @@
+page{
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
 .cont-full-page{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 100%
+}
 
-}
-.cont-logo{
-  display: flex;
-  justify-content: center;
-  margin-top: .5rem;
-  margin-bottom: .2rem;
-}
 .cont-titulo{
   text-align: center;
   margin-top: .2rem;
   margin-bottom: .2rem;
 }
+
+.titulo{
+  color: blue;
+  font-family: monospace;
+  font-size: .8rem;
+}
+
 .cont-form-login{
   width: 80%;
 }
+
 .form-login{
   display: flex;
   flex-direction: column;
@@ -27,21 +35,18 @@
   margin-top: .1rem;
   margin-bottom: .2rem;
 }
+
 .form-login input{
   width: 80%;
   height: .5rem;
   margin-top: .1rem;
   margin-bottom: .1rem;
 }
+
 .form-login button{
   text-align: center;
   width: 80%;
   height: .8rem;
   margin-top: .1rem;
   margin-bottom: .1rem;
-}
-.titulo{
-  color: blue;
-  font-family: monospace;
-  font-size: .8rem;
 }

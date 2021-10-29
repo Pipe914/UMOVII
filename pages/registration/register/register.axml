@@ -1,19 +1,18 @@
 <view class="cont-full-page">
-  <view class="cont-logo">
-    <image mode="scaleToFill" id="logo" alt= "logo" src="https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg"/>
-  </view>
   <view class="cont-titulo">
-    <text class="titulo" onTap="go">REGISTRO</text>
+    <text class="titulo">CREA TU CUENTA</text>
   </view>
-
+  <view class="cont-foto-perfil">
+    
+  </view>
   <view class="cont-form-login">
     <form class="form-login">
       <input placeholder="Correo Electronico " id="correo" />
       <input password="true" placeholder="Contraseña " id="contra"/>
-      <input password="true" placeholder="Confirme la Contraseña " id="contra"/>
+      <input type="number" placeholder="Celular" id="celular"/>
       <button size="default" type="primary">INGRESAR</button>
     </form>  
     <button size="default" type="primary" onTap="go">LOGIN</button>
   </view>
 
-</view>
+</view> 
