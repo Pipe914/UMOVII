@@ -1,8 +1,11 @@
+import fs from 'fs';
 Page({
   data: {},
-  onLoad() {},
-  formSubmit: function(e){
-    if(e.detail.value.mail.contains("@unisabana.edu.co") && e.detail.value.pass != ""){
+  onLoad() { },
+  formSubmit: function (e) {
+
+
+    if (e.detail.value.mail.contains("@unisabana.edu.co") && e.detail.value.pass != "") {
       my.alert({
         title: "Inicio de sesion exitoso",
         content: "Se ha iniciado sesion exitosamente",
@@ -11,7 +14,7 @@ Page({
       my.navigateTo({
         url: '../index/index'
       });
-    }else{
+    } else {
       my.alert({
         title: "Usuario no encontrado",
         content: "No existe el usuario",

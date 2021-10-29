@@ -1,19 +1,4 @@
 {
-  "tabBar": {
-    "textColor": "#dddddd",
-    "selectedColor": "#49a9ee",
-    "backgroundColor": "#ffffff",
-    "items": [
-      {
-        "pagePath": "pages/login/login",
-        "name": "Login"
-      },
-      {
-        "pagePath": "pages/register/register",
-        "name": "Register"
-      }
-    ]
-  },
   "pages": [
     
     "pages/splash/splash",
@@ -27,7 +12,7 @@
     "pages/firstLogin/firstLogin2/firstLogin2",
     "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/mapstry/mapstry",
-    "pages/splash/splash"
+    "DB/Db.txt"
   ],
   "window": {
     "defaultTitle": "My App"
