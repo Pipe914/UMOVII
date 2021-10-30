@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/splash/splash",
     "pages/Principal/Principal",
     "pages/firstLogin/firstLogin1/firstLogin1",
     "pages/firstLogin/firstLogin2/firstLogin2",
@@ -8,8 +9,8 @@
     "pages/register/register",
     "pages/VerificationCode/VerificationCode",
     "pages/chooseUserType/chooseUserType",
-    "pages/registerCar/registerCar",
-    "pages/splash/splash"
+    "pages/registerCar/registerCar"
+    
 
     
     
