@@ -1,3 +1,4 @@
+
 <view class="cont-full-page">
   <view class="cont-titulo">
     <text class="titulo">CREA TU CUENTA</text>
@@ -6,11 +7,11 @@
     
   </view>
   <view class="cont-form-login">
-    <form class="form-login">
-      <input placeholder="Correo Electronico " id="correo" />
-      <input password="true" placeholder="Contraseña " id="contra"/>
-      <input type="number" placeholder="Celular" id="celular"/>
-      <button size="default" type="primary">INGRESAR</button>
+    <form class="form-login" onSubmit="formSubmit">
+      <input placeholder="Correo Electronico " name="mail"  id="correo" />
+      <input password="true" placeholder="Contraseña " name="pass1" id="contra"/>
+      <input password="true" placeholder="Confirme la Contraseña" name="pass2"  id="contra2"/>
+      <button size="default" type="primary" formType="submit">Ingresar</button>
     </form>  
     <button size="default" type="primary" onTap="go">LOGIN</button>
   </view>

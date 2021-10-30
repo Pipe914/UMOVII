@@ -1,8 +1,5 @@
 {
   "tabBar": {
-    "textColor": "#dddddd",
-    "selectedColor": "#49a9ee",
-    "backgroundColor": "#ffffff",
     "items": [
       {
         "pagePath": "pages/login/login",
@@ -14,18 +11,18 @@
       }
     ]
   },
+  
   "pages": [
-    "pages/registration/register/register",
-    "pages/login/login",
-    "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/firstLogin/firstLogin2/firstLogin2",
     "pages/firstLogin/firstLogin1/firstLogin1",
     "pages/index/index",
-    "pages/firstLogin/firstLogin2/firstLogin2",
+    "pages/registration/register/register",
+    "pages/login/login",
     "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/registration/codeEmail/codeEmail"
   ],
   "window": {
     "defaultTitle": "My App"
   }
+  
 }
