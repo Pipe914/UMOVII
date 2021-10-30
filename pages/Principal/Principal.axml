@@ -1,0 +1,9 @@
+<view>
+  <view class="cont-text">
+    <text class="text-1">UMOVI</text>
+  </view>
+  
+  <view class="cont-text2">
+    <text class="text-2">viajemos juntos</text>
+  </view>
+</view>

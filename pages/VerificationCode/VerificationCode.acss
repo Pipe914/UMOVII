@@ -8,11 +8,12 @@ page{
   font-family: 'Poppins', sans-serif;
 }
 
+
 .text-1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size: .6rem;
-  color:#5B10BA;
+  font-size: .5rem;
+  color:#000;
   margin: auto;
 }
 
@@ -20,11 +21,18 @@ page{
   text-align: center;
 }
 
-.cont-text2 { 
+.cont-text3 { 
   text-align: center;
-  margin-top: 25px;
-  font-size: .2rem;
 }
+
+.cont-text2 {
+  text-align: center;
+}
+
+.text-2 {
+  font-weight: bold;
+}
+
 .cont-button{
   display: flex;
   flex-direction: column;
@@ -43,51 +51,25 @@ page{
 
 }
 
-.form {
-  text-align: left;
-  margin-top: .4rem;
-  margin-bottom: .1rem;
-}
-
-.iname {
-  width: 95%;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.ipass {
-  width: 95%;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-top: .2rem;
-}
-
-.itel {
-  width: 95%;
-  display: inline-block;
-  border: 1px solid #5B10BA;
-  border-radius: 4px;
-  margin-top: .2rem;
-}
-
-.icorreo {
-  width: 95%;
-  display: inline-block;
-  border: 1px solid #5B10BA;
-  border-radius: 4px;
-  margin-top: .2rem;
-}
-
 .btn-regis {
-  color: #000;
+  margin-left: 8px;
+  color: #5B10BA;
   font-weight: bold;
-  margin-left: 3.5px;
 }
 
-checkbox {
-  width: 15px;
-  height: 15px;
-  margin-right: 10px;
+.form {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.icode {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 12px;
+  box-shadow: 2px 2px 2px 2px #ccc;
 }

@@ -1,20 +1,30 @@
+<view>
 
-<view class="cont-full-page">
-  <view class="cont-logo">
-    <image mode="scaleToFill" id="logo" alt= "logo" src="https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg"/>
-  </view>
-  <view class="cont-titulo">
-    <text class="titulo" onTap="go">REGISTRO</text>
+  <view class="cont-text">
+    <text class="text-1">CREA TU CUENTA</text>
   </view>
 
-  <view class="cont-form-login">
-    <form class="form-login" onSubmit="formSubmit">
-      <input placeholder="Correo Electronico " name="mail"  id="correo" />
-      <input password="true" placeholder="Contraseña " name="pass1" id="contra"/>
-      <input password="true" placeholder="Confirme la Contraseña" name="pass2"  id="contra2"/>
-    <button  size="default" type="primary" formType="submit">Registrarse</button>
-      <!-- <button size="default" type="primary" form-type="submit"  >Registrarse</button> -->
-    </form>  
+  <form class="form" onSubmit="formSubmit">
+    <view>
+      <input class="iname" placeholder="Nombre" name="nombre" id="name"/>
+    </view>
+    <view>
+      <input class="ipass" password="true" placeholder="Contraseña" name="pass" id="name"/>
+    </view>
+    <view>
+      <input class="itel" placeholder="Teléfono" name="tel" id="name"/>
+    </view>
+    <view>
+      <input class="icorreo" placeholder="Correo" name="mail" id="name"/>
+    </view>
+  
+
+  <view class="cont-text2">
+    <checkbox value="" name="checkTerminos"/><text class="text-2">Aceptar <text class="btn-regis">Términos y Condiciones</text></text>
   </view>
 
+  <view class="cont-button">
+    <button size="default" type="primary" class="button" formType="submit">Registrar</button>
+  </view>
+</form>
 </view>

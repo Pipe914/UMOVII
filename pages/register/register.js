@@ -1,34 +1,54 @@
+const app = getApp()
 Page({
   data: {
     title: "Registro"
   },
   onLoad() { },
-  go() {
-    my.switchTab({ url: "../login/login" })
-  },
   formSubmit: function (e) {
 
 
-    
+    const name = e.detail.value.nombre;
+    const pass = e.detail.value.pass;
+    const tele = e.detail.value.tel;
+    const maill = e.detail.value.mail;
+    // const check = e.checkTerminos;
 
-  
+    console.log(e)
+
+    if (name != "" && pass != "" && tele != "" && maill != "") {
+      if (maill.includes("@unisabana.edu.co")) {
+        app.globalData.dataUserRegister.mail = "'" + maill + "'";
+        app.globalData.dataUserRegister.pass = "'" + pass + "";
+        app.globalData.dataUserRegister.nombre = "'" + name + "";
+        app.globalData.dataUserRegister.telefono = "'" + tele + "";
+        my.alert({
+          title: "Usuario registrado con exito!",
+          buttonText: "Ok",
+        });
+        my.navigateTo({
+        url: '../VerificationCode/VerificationCode' 
+      });
+      } else {
+        my.alert({
+          title: "Debe registrarse con su correo institucional",
+          content: "ex: javier@unisabana.edu.co",
+          buttonText: "Ok",
+        });
+      }
+
+    } else {
+      my.alert({
+        title: "No se ha podido registrar el usuario!",
+        content: "Intente de nuevo mas tarde",
+        buttonText: "Ok",
+      });
+    }
+    console.log(app.globalData.dataUserRegister);
 
 
-if (e.detail.value.pass1 == e.detail.value.pass2 && e.detail.value.mail != "" && e.detail.value.mail.includes("@unisabana.edu.co")) {
-  my.alert({
-    title: "Usuario registrado",
-    content: "Usuario registrado exitosamente",
-    buttonText: "Ok",
-  })
-  my.navigateTo({
-    url: '../login/login'
-  })
-} else {
-  my.alert({
-    title: "Usuario no registrado",
-    content: "No se registro el usuario. Intente de nuevo.",
-    buttonText: "Ok",
-  })
-}
+
+
+
+
   }
 });

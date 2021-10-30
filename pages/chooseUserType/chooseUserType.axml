@@ -1,0 +1,14 @@
+<view>
+
+  <view class="cont">
+    <text class="text-1">CONDUCTOR</text>  
+  </view>
+
+  <view class="cont">
+      <text class="text-1">PASAJERO</text>  
+  </view>
+
+  <view class="cont-button">
+    <button size="default" type="primary" class="button" onTap="siguientePagina">Confirmar</button>
+  </view>
+</view>

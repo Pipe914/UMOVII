@@ -1,18 +1,20 @@
 {
   "pages": [
-    
-    "pages/splash/splash",
-    "pages/mapstry/mapstry",
+    "pages/Principal/Principal",
     "pages/firstLogin/firstLogin1/firstLogin1",
-    "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/firstLogin/firstLogin2/firstLogin2",
-    "pages/register/register",
+    "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/login/login",
-    "pages/index/index",
-    "pages/firstLogin/firstLogin2/firstLogin2",
-    "pages/firstLogin/firstLogin3/firstLogin3",
-    "pages/mapstry/mapstry",
-    "DB/Db.txt"
+    "pages/register/register",
+    "pages/VerificationCode/VerificationCode",
+    "pages/chooseUserType/chooseUserType",
+    "pages/registerCar/registerCar",
+    "pages/splash/splash"
+
+    
+    
+    
+   
   ],
   "window": {
     "defaultTitle": "My App"

@@ -1,47 +1,84 @@
-.cont-full-page{
+page{
+  background: #ffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: .6rem;
+  color:#5B10BA;
+  margin: auto;
+}
+
+.cont-text { 
+  text-align: center;
+}
+
+.cont-text2 { 
+  text-align: center;
+}
+
+.text-2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: .2rem;
+  color:#000000;
+  font-weight: bold;
+}
+
+.text-3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: .2rem;
+  color:#000000;
+}
+
+.cont-button{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+}
+.button{
+  margin-top: .4rem;
+  margin-bottom: .2rem;
+  background: #5B10BA;
+  width: 60%;
+  font-family: 'Poppins', sans-serif;
+  font-weight:  bold;
+  font-size: .25rem;
+  border-radius: .2rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 
 }
-.cont-logo{
-  display: flex;
-  justify-content: center;
-  margin-top: .5rem;
-  margin-bottom: .2rem;
-}
-.cont-titulo{
-  text-align: center;
-  margin-top: .2rem;
-  margin-bottom: .2rem;
-}
-.cont-form-login{
-  width: 80%;
-}
-.form-login{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: .1rem;
-  margin-bottom: .2rem;
-}
-.form-login input{
-  width: 80%;
-  height: .5rem;
-  margin-top: .1rem;
+
+.form {
+  text-align: left;
+  margin-top: .4rem;
   margin-bottom: .1rem;
 }
-.form-login button{
-  text-align: center;
-  width: 80%;
-  height: .8rem;
-  margin-top: .1rem;
-  margin-bottom: .1rem;
+
+.iname {
+  width: 95%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
 }
-.titulo{
-  color: blue;
-  font-family: monospace;
-  font-size: .8rem;
+
+.ipass {
+  width: 95%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: .1rem;
+}
+
+.btn-regis {
+  color: #5B10BA;
+  font-weight: bold;
+  margin-left: 3.5px;
 }

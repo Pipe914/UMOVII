@@ -49,14 +49,8 @@ page{
   margin-bottom: .1rem;
 }
 
-.iname {
-  width: 95%;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
 
-.ipass {
+.imodelo {
   width: 95%;
   display: inline-block;
   border: 1px solid #ccc;
@@ -64,27 +58,14 @@ page{
   margin-top: .2rem;
 }
 
-.itel {
+.icupo {
   width: 95%;
   display: inline-block;
-  border: 1px solid #5B10BA;
+  border: 1px solid #ccc;
   border-radius: 4px;
   margin-top: .2rem;
 }
 
-.icorreo {
-  width: 95%;
-  display: inline-block;
-  border: 1px solid #5B10BA;
-  border-radius: 4px;
-  margin-top: .2rem;
-}
-
-.btn-regis {
-  color: #000;
-  font-weight: bold;
-  margin-left: 3.5px;
-}
 
 checkbox {
   width: 15px;
