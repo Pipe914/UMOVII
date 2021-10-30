@@ -1,0 +1,24 @@
+<view>
+  <view class="cont-text">
+    <text class="text-1">INGRESA EL CÓDIGO</text>
+  </view>
+
+  <view class="cont-text3">
+      <text class="text-2">enviado a su correo</text>
+  </view>
+
+  <form class="form" onSubmit="formSubmitRegistrar">
+      <input class="icode" placeholder="" id="code"/>
+      <input class="icode" placeholder="" id="code"/>
+      <input class="icode" placeholder="" id="code"/>
+      <input class="icode" placeholder="" id="code"/>
+  </form>
+
+  <view class="cont-text2">
+    <text class="text-3">¿No recibiste el código? <text class="btn-regis">Reenviar</text></text>
+  </view>
+
+  <view class="cont-button">
+    <button size="default" type="primary" class="button" onTap="onTap">Confirmar</button>
+  </view>
+</view>

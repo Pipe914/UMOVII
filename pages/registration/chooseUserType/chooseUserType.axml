@@ -1,0 +1,15 @@
+<view>
+  <view class="cont">
+    <image mode="aspectFit" class="imageType" src="https://i.ibb.co/27gNw11/Conductor.png"/>
+    <text class="text-1">CONDUCTOR</text>
+  </view>
+
+  <view class="cont">
+    <image mode="aspectFit" class="imageType" src="https://i.ibb.co/Gp1jxLT/Usuario.png"/>
+    <text class="text-1">PASAJERO</text>  
+  </view>
+
+  <view class="cont-button">
+    <button size="default" type="primary" class="button" onTap="siguientePagina">Confirmar</button>
+  </view>
+</view>

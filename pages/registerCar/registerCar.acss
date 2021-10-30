@@ -22,21 +22,9 @@ page{
 
 .cont-text2 { 
   text-align: center;
-}
-
-.text-2 {
-  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
   font-size: .2rem;
-  color:#000000;
-  font-weight: bold;
 }
-
-.text-3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: .2rem;
-  color:#000000;
-}
-
 .cont-button{
   display: flex;
   flex-direction: column;
@@ -46,7 +34,7 @@ page{
   margin-top: .4rem;
   margin-bottom: .2rem;
   background: #5B10BA;
-  width: 60%;
+  width: 95%;
   font-family: 'Poppins', sans-serif;
   font-weight:  bold;
   font-size: .25rem;
@@ -56,47 +44,31 @@ page{
 }
 
 .form {
-  display: flexbox;
-  flex-direction: column;
   text-align: left;
-  width: 70%;
   margin-top: .4rem;
   margin-bottom: .1rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.iname {
-  width: 85%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
-.ipass {
-  width: 85%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.btn-regis {
-  color: #5B10BA;
-  font-weight: bold;
-  margin-left: 3.5px;
-}
-
-.input-field{
+.imodelo {
+  width: 95%;
   display: inline-block;
-  align-items: center;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-top: .3rem;
-  margin-bottom: .2rem;
-  width: 100%;
+  margin-top: .2rem;
 }
 
-.imageInput{
-  width: .3rem;
-  height: .3rem;
-  margin-right: .1rem;
-  margin-left: .05rem;
+.icupo {
+  width: 95%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: .2rem;
+}
+
+
+checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
 }

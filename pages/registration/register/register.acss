@@ -1,52 +1,117 @@
 page{
-  background: white;
+  background: #ffff;
   width: 100%;
   height: 100%;
-}
-
-.cont-full-page{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%
-}
-
-.cont-titulo{
-  text-align: center;
-  margin-top: .2rem;
-  margin-bottom: .2rem;
-}
-
-.titulo{
-  color: blue;
-  font-family: monospace;
-  font-size: .8rem;
-}
-
-.cont-form-login{
-  width: 80%;
-}
-
-.form-login{
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: .1rem;
-  margin-bottom: .2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-.form-login input{
-  width: 80%;
-  height: .5rem;
-  margin-top: .1rem;
-  margin-bottom: .1rem;
+.text-1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: .6rem;
+  color:#5B10BA;
+  margin: auto;
 }
 
-.form-login button{
+.cont-text { 
   text-align: center;
-  width: 80%;
-  height: .8rem;
-  margin-top: .1rem;
+}
+
+.cont-text2 { 
+  text-align: center;
+  margin-top: 25px;
+  font-size: .2rem;
+}
+.cont-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button{
+  margin-top: .4rem;
+  margin-bottom: .2rem;
+  background: #5B10BA;
+  width: 95%;
+  font-family: 'Poppins', sans-serif;
+  font-weight:  bold;
+  font-size: .25rem;
+  border-radius: .2rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+
+}
+
+.form {
+  display: flexbox;
+  flex-direction: column;
+  text-align: left;
+  width: 70%;
+  margin-top: .4rem;
   margin-bottom: .1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iname {
+  width: 85%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ipass {
+  width: 85%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.itel {
+  width: 85%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.icorreo {
+  width: 85%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn-regis {
+  color: #000;
+  font-weight: bold;
+  margin-left: 3.5px;
+}
+
+checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.input-field{
+  display: inline-block;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: .3rem;
+  margin-bottom: .2rem;
+  width: 100%;
+}
+
+.input-field2{
+  display: inline-block;
+  align-items: center;
+  border: 1px solid #5B10BA;
+  border-radius: 4px;
+  margin-top: .3rem;
+  margin-bottom: .2rem;
+  width: 100%;
+}
+
+.imageInput{
+  width: .3rem;
+  height: .3rem;
+  margin-right: .1rem;
+  margin-left: .05rem;
 }

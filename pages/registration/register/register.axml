@@ -1,19 +1,32 @@
+<view>
 
-<view class="cont-full-page">
-  <view class="cont-titulo">
-    <text class="titulo">CREA TU CUENTA</text>
-  </view>
-  <view class="cont-foto-perfil">
-    
-  </view>
-  <view class="cont-form-login">
-    <form class="form-login" onSubmit="formSubmit">
-      <input placeholder="Correo Electronico " name="mail"  id="correo" />
-      <input password="true" placeholder="Contraseña " name="pass1" id="contra"/>
-      <input password="true" placeholder="Confirme la Contraseña" name="pass2"  id="contra2"/>
-      <button size="default" type="primary" formType="submit">Ingresar</button>
-    </form>  
-    <button size="default" type="primary" onTap="go">LOGIN</button>
+  <view class="cont-text">
+    <text class="text-1">CREA TU CUENTA</text>
   </view>
 
-</view> 
+  <form class="form" onSubmit="formSubmit">
+    <view  class="input-field">
+      <input class="iname" placeholder="Nombre" name="nombre" id="name"/>
+    </view>
+    <view  class="input-field">
+      <input class="ipass" password="true" placeholder="Contraseña" name="pass" id="name"/>
+    </view>
+    <view  class="input-field2">
+      <image mode="aspectFit" class="imageInput" src="https://i.ibb.co/7vSgBJv/Celular.png"/>
+      <input class="itel" placeholder="Teléfono" name="tel" id="name"/>
+    </view>
+    <view  class="input-field2">
+      <image mode="aspectFit" class="imageInput" src="https://i.ibb.co/Q60sBwk/Email.png"/>
+      <input class="icorreo" placeholder="Correo" name="mail" id="name"/>
+    </view>
+  
+
+  <view class="cont-text2">
+    <checkbox value="" name="checkTerminos"/><text class="text-2">Aceptar <text class="btn-regis">Términos y Condiciones</text></text>
+  </view>
+
+  <view class="cont-button">
+    <button size="default" type="primary" class="button" formType="submit">Registrar</button>
+  </view>
+</form>
+</view>

@@ -1,0 +1,32 @@
+<view class="ContenedorPrincipal">
+<view>
+  <view class="topbar">
+      <image class="imageprofile" alt="ProfPic" mode="aspectFit" src="https://i.ibb.co/JrF49QP/face.png"/>
+      <image  class="imageicon" alt="bellicon" mode="aspectFit" src="https://i.ibb.co/7R431vk/Path.png"/>
+  </view>
+  <view class="bottomContenedor">
+    <view class="info">
+      <text class="SeleccionText" style="{{estilo}}">{{textInfo}}</text>
+      <text class="fraseText">Viajemos juntos</text>
+    </view>
+    <view class="destinopartida">
+      <view class="puntoPartida">
+        <image  class="imageiconpartida" alt="bluedot" mode="aspectFit" src="https://i.ibb.co/3YgjJK2/Vector.png"/>
+        <text class="textpuntopartida">Punto de partida</text>
+      </view>
+      <view class="destino">
+        <image  class="imageicondestino" alt="mapmarker" mode="aspectFit" src="https://i.ibb.co/Sywwkdn/Ellipse-2.png"/>
+        <text  class="textpuntopartida">Destino</text>
+
+      </view>
+    </view>
+    <view class="boton">
+      <button size="default" type="primary" class="botonConfirmar"><text>Confirmar</text><image  mode="aspectFit" src="https://i.ibb.co/yn2t2W7/Arrow-Narrow-Right-Outline.png"/></button>
+    </view>
+  </view>
+  </view>
+  <view class="mapa1">
+    <map id="map"   onTap="SelAdress" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" show-location markers="{{markers}}" polyline="{{polyline}}" ></map>
+  </view>
+  
+</view>

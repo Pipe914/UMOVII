@@ -11,18 +11,21 @@
       }
     ]
   },
-  
   "pages": [
-    "pages/firstLogin/firstLogin2/firstLogin2",
+    "pages/profile/mainProfile/mainProfile",
+    "pages/registration/chooseUserType/chooseUserType",
+    "pages/Principal/Principal",
     "pages/firstLogin/firstLogin1/firstLogin1",
-    "pages/index/index",
-    "pages/registration/register/register",
-    "pages/login/login",
+    "pages/firstLogin/firstLogin2/firstLogin2",
     "pages/firstLogin/firstLogin3/firstLogin3",
-    "pages/registration/codeEmail/codeEmail"
+    "pages/login/login",
+    "pages/registration/register/register",
+    "pages/VerificationCode/VerificationCode",
+    "pages/registerCar/registerCar",
+    "pages/splash/splash",
+    "pages/profile/mainProfile/mainProfile"
   ],
   "window": {
     "defaultTitle": "My App"
   }
-  
 }

@@ -1,17 +1,29 @@
-<view class="cont-full-page">
-  <view class="cont-logo">
-    <image mode="scaleToFill" id="logo" alt= "logo" src="https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg"/>
-  </view>
-  <view class="cont-titulo">
-    <text class="titulo">INGRESAR</text>
+<view>
+  <view class="cont-text">
+    <text class="text-1">INICIAR SESIÓN</text>
   </view>
 
-  <view class="cont-form-login">
-    <form class="form-login">
-      <input placeholder="Correo Electronico " id="correo" />
-      <input password="true" placeholder="Contraseña " id="contra"/>
-      <button size="default" type="primary">INGRESAR</button>
-    </form>  
+  <form class="form" onSubmit="formSubmit">
+    <view class="input-field">
+      <image mode="aspectFit" class="imageInput" src="https://i.ibb.co/7vSgBJv/Celular.png"/>
+      <input class="iname" placeholder="Correo" name="mail" id="name"/>
+    </view>
+    <view class="input-field">
+      <image mode="aspectFit" class="imageInput" src="https://i.ibb.co/Q60sBwk/Email.png"/>
+      <input class="ipass" password="true" placeholder="Contraseña" name="pass" id="name"/>
+    </view>
+  
+
+  <view class="cont-text2">
+    <text class="text-2">¿Olvidaste tu contraseña?</text>
   </view>
-    
+
+  <view class="cont-button">
+    <button size="default" type="primary" class="button" formType="submit">ENTRAR</button>
+  </view>
+
+  <view class="cont-text2">
+    <text class="text-3">¿Aún no tienes una cuenta? <text class="btn-regis" onTap="onTap">Regístrate</text></text>
+  </view>
+  </form>
 </view>

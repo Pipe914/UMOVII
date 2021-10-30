@@ -1,7 +1,4 @@
 <view>
-  this is a blank page
-</view>
-<view>
  <map id="map" longitude="103.855457" latitude="1.339712" scale="{{scale}}" controls="{{controls}}"
  onControlTap="controltap" markers="{{markers}}"
  onMarkerTap="markertap"

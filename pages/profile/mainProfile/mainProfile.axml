@@ -1,0 +1,11 @@
+<view>
+  <view class="cont-image-perfil">
+    <image mode="aspectFit" class="imagePerfil" src="https://i.ibb.co/B48gS9j/Foto-Perfil.png"/>
+  </view>
+  <view class="cont-name">
+    
+  </view>
+  <view class="cont-options">
+    
+  </view>
+</view>

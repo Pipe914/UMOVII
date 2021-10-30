@@ -1,0 +1,23 @@
+<view>
+  <view class="cont-text">
+    <text class="text-1">REGISTRA TU CARRO</text>
+  </view>
+
+  <form class="form" onSubmit="formSubmitRegistrar">
+    <view>
+      <input class="imodelo" placeholder="Modelo" id="name"/>
+    </view>
+    <view>
+      <input class="icupo" password="true" placeholder="Cupo Máx" id="name"/>
+    </view>
+  </form>
+
+  <view class="cont-text2">
+    <checkbox value=""/><text class="text-2">Aceptar <text class="btn-regis">Términos y Condiciones</text></text>
+  </view>
+
+  <view class="cont-button">
+    <button size="default" type="primary" class="button" onTap="siguientePagina">Registrar</button>
+  </view>
+
+</view>
