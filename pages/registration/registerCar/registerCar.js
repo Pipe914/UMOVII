@@ -19,7 +19,6 @@ Page({
           });
         }, 2000);
       }
-
     } else {
       my.alert({
         title: "Campos incompletos",

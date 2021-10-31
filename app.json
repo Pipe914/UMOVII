@@ -18,7 +18,7 @@
     "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/login/login",
     "pages/registration/register/register",
-    "pages/VerificationCode/VerificationCode",
+    "pages/registration/VerificationCode/VerificationCode",
     "pages/registration/registerCar/registerCar",
     "pages/registration/chooseUserType/chooseUserType",
     "pages/registration/codeEmail/codeEmail",
