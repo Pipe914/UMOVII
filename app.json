@@ -12,6 +12,8 @@
     ]
   },
   "pages": [
+    "pages/pedirWeel/detallesWeels/detallesWeels",
+    "pages/pedirWeel/resultadoBusqueda/resultadoBusqueda",
     "pages/pedirWeel/selecUbicacion/selecUbicacion",
     "pages/profile/mainProfile/mainProfile",
     "pages/registration/chooseUserType/chooseUserType",
