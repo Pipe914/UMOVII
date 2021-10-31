@@ -51,10 +51,12 @@ Page({
     let estado2 = app.globalData.dataUser1.estado;
     if(estado2==1){
       this.setData({
-        nombreActiveUser: app.globalData.dataUser1
+        nombreActiveUser: "dataUser1"
       })
     }else if(estado2==1){
-
+      this.setData({
+        nombreActiveUser: "dataUserRegister"
+      })
     }
 
   },
@@ -71,15 +73,7 @@ Page({
           longitude: that.data.markers[1].longitude,
         }],
 
-        // polyline: [{
-        //   points: [{
-        //     latitude: e.latitude,
-        //   longitude: e.longitude,
-        //   },{
-        //     latitude: that.data.markers[1].latitude,
-        //   longitude: that.data.markers[1].longitude,
-        //   }]
-        // }],
+
         primerToque: true,
         // textInfo: "Selecciona tu destino",
         // estilo: "margin-left: auto; marign-right: auto;"
@@ -98,6 +92,18 @@ Page({
 
     }
     console.log(this.data);
+    if(that.data.nombreActiveUser == "dataUser1"){
+        app.globalData.dataUser1.puntoPartida.latitude=that.data.markers[0].latitude;
+        app.globalData.dataUser1.puntoPartida.longitude=that.data.markers[0].longitude;
+        app.globalData.dataUser1.puntoLlegada.longitude=that.data.markers[1].longitude;
+        app.globalData.dataUser1.puntoLlegada.latitude=that.data.markers[1].latitude;
+      }else if(that.data.nombreActiveUser=="dataUserRegister"){
+        app.globalData.dataUserRegister.puntoPartida.latitude=that.data.markers[0].latitude;
+        app.globalData.dataUserRegister.puntoPartida.longitude=that.data.markers[0].longitude;
+        app.globalData.dataUserRegister.puntoLlegada.longitude=that.data.markers[1].longitude;
+        app.globalData.dataUserRegister.puntoLlegada.latitude=that.data.markers[1].latitude;
+      }
+      console.log(app.globalData)
   }
 
 
