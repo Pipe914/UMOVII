@@ -47,8 +47,10 @@ require('../../pages/registration/registerCar/registerCar?hash=32d7d2807ed4e666e
 require('../../pages/registration/chooseUserType/chooseUserType?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/registration/codeEmail/codeEmail?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/splash/splash?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
-require('../../pages/profile/mainProfile/mainProfile?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
+require('../../pages/pedirWeel/detallesWeels/detallesWeels?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
+require('../../pages/pedirWeel/resultadoBusqueda/resultadoBusqueda?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/pedirWeel/selecUbicacion/selecUbicacion?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
+require('../../pages/profile/mainProfile/mainProfile?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 }
 self.bootstrapApp ? self.bootstrapApp({ success }) : success();
 }

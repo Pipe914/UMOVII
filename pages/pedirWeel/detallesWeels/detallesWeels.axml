@@ -1,0 +1,29 @@
+<view class="cont-form">
+  <view class="cont-titulo">
+    <text class="titulo">Detalla tu Viaje</text>
+  </view>
+  <view class="cont-image">
+    <image class="image-carro" mode="aspectFit" src="https://i.ibb.co/pRzK7GN/Carro.png"/>
+  </view>
+  <form class="form" >
+    <view  class="input-field">
+      <input class="iname" placeholder="Modelo" name="modelo" id="model"/>
+    </view>
+    <view  class="input-field">
+      <input class="ipass" placeholder="Cupos Max." name="cupos" id="name"/>
+    </view>
+    <view  class="input-field2">
+      <image mode="aspectFit" class="imageInput" src="https://i.ibb.co/6ZYfz9M/Precio.png"/>
+      <input class="itel" placeholder="Precio" name="precio" id="pre"/>
+    </view>
+    <view  class="input-field2">
+      <image mode="aspectFit" class="imageInput2" src="https://i.ibb.co/fX3yqvr/Hora.png"/>
+      <input class="icorreo" placeholder="Hora" name="mail" id="name"/>
+    </view>
+</form>
+
+</view>
+
+<view class="cont-button">
+  <button size="default" type="primary" class="button" formType="submit">Ofertar</button>
+</view>

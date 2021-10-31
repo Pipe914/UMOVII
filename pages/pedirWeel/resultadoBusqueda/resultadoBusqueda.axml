@@ -1,0 +1,51 @@
+<view class="cont-titulo">
+  <text class="titulo">RUTAS</text>
+</view>
+<view class="cont-ruta">
+  <view class="cont-data">
+    <view class="cont-image">
+      <image class="image-perfil" mode="aspectFill" src="https://i.ibb.co/NmXxPbf/Perfil1.png"/>
+    </view>
+    <view class="cont-Nombre">
+      <text class="name" numer-of-lines="2">Juan Caicedo
+      5:00 PM</text>
+    </view>
+    <view class="cont-button">
+      <button size="default" type="primary" onTap="popUp" class="button" formType="submit">$3000</button>
+    </view>
+  </view>
+  <view class="cont-mapa">
+    <image class="image-map" mode="aspectFill " src="https://i.ibb.co/hCV6gdd/Map-Busqueda.png"/>
+  </view>
+</view>
+<view class="cont-ruta2">
+  <view class="cont-data2">
+    <view class="cont-image">
+      <image class="image-perfil" mode="aspectFill" src="https://i.ibb.co/9Tf1tSV/Perfil2.png"/>
+    </view>
+    <view class="cont-Nombre">
+      <text class="name" numer-of-lines="2">Emanuel Lopez
+      4:00 PM</text>
+    </view>
+    <view class="cont-button">
+      <button size="default" type="primary" onTap="popUp" class="button" formType="submit">$3000</button>
+    </view>
+  </view>
+</view>
+<view class="cont-ruta">
+  <view class="cont-data">
+    <view class="cont-image">
+      <image class="image-perfil" mode="aspectFill" src="https://i.ibb.co/0MGCvHV/Perfil3.png"/>
+    </view>
+    <view class="cont-Nombre">
+      <text class="name" numer-of-lines="2">Salomé Jiménez
+      3:30 PM</text>
+    </view>
+    <view class="cont-button">
+      <button size="default" type="primary" onTap="popUp" class="button" formType="submit">$3000</button>
+    </view>
+  </view>
+  <view class="cont-mapa">
+    <image class="image-map" mode="aspectFill " src="https://i.ibb.co/hCV6gdd/Map-Busqueda.png"/>
+  </view>
+</view>

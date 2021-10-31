@@ -24,8 +24,10 @@
     "pages/registration/chooseUserType/chooseUserType",
     "pages/registration/codeEmail/codeEmail",
     "pages/splash/splash",
-    "pages/profile/mainProfile/mainProfile",
-    "pages/pedirWeel/selecUbicacion/selecUbicacion"
+    "pages/pedirWeel/detallesWeels/detallesWeels",
+    "pages/pedirWeel/resultadoBusqueda/resultadoBusqueda",
+    "pages/pedirWeel/selecUbicacion/selecUbicacion",
+    "pages/profile/mainProfile/mainProfile"
   ],
   "window": {
     "defaultTitle": "UMOVI"
