@@ -106,7 +106,7 @@ Page({
       console.log(app.globalData)
   },
   onTapProfile(){
-    my.navigateTo({
+    my.redirectTo({
           url: '../profile/mainProfile/mainProfile'
         });
   }

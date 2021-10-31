@@ -23,9 +23,7 @@
     "pages/registration/chooseUserType/chooseUserType",
     "pages/registration/codeEmail/codeEmail",
     "pages/splash/splash",
-    "pages/login/login",
-    "pages/profile/mainProfile/mainProfile",
-    "pages/login/login"
+    "pages/profile/mainProfile/mainProfile"
   ],
   "window": {
     "defaultTitle": "UMOVI"

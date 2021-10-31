@@ -14,8 +14,8 @@ Page({
           button: "Ok"
         })
         setTimeout(function () {
-          my.navigateTo({
-            url: '../splash/splash'
+          my.redirectTo({
+            url: '../../splash/splash'
           });
         }, 2000);
       }

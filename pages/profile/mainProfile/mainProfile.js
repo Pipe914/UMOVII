@@ -22,13 +22,16 @@ Page({
   onTapCerrarSesion(e) {
 
 
-    // if (user1.estado == 1) {
-    //   app.globalData.dataUser1.estado = 0;
-    // }
-    // if(user2.estado==1){
-    //   app.globalData.dataUserRegister.estado = 0;
-    // }
-    
+    if (user1.estado == 1) {
+      app.globalData.dataUser1.estado = 0;
+
+    }
+    if(user2.estado==1){
+      app.globalData.dataUserRegister.estado = 0;
+    }
+    my.redirectTo({
+      url: '../../login/login'
+    })
     
   },
 });
