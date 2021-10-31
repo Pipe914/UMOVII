@@ -12,14 +12,14 @@
       <text class="SeleccionText" style="{{estilo}}">{{textInfo}}</text>
       <text class="fraseText">Viajemos juntos</text>
     </view>
-    <view class="destinopartida">
+    <view class="destinopartida" onTap="BuscarSitios">
       <view class="puntoPartida">
         <image  class="imageiconpartida" alt="bluedot" mode="aspectFit" src="https://i.ibb.co/3YgjJK2/Vector.png"/>
-        <text class="textpuntopartida">Punto de partida</text>
+        <text class="textpuntopartida">{{textpuntopartida}}</text>
       </view>
       <view class="destino">
         <image  class="imageicondestino" alt="mapmarker" mode="aspectFit" src="https://i.ibb.co/Sywwkdn/Ellipse-2.png"/>
-        <text  class="textpuntopartida">Destino</text>
+        <text  class="textpuntopartida">{{textpuntollegada}}</text>
 
       </view>
     </view>

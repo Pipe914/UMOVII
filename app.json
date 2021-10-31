@@ -12,6 +12,7 @@
     ]
   },
   "pages": [
+    "pages/pedirWeel/selecUbicacion/selecUbicacion",
     "pages/Principal/Principal",
     "pages/firstLogin/firstLogin1/firstLogin1",
     "pages/firstLogin/firstLogin2/firstLogin2",

@@ -35,6 +35,7 @@ if(AFAppX.registerApp) {
 
 function success() {
 require('../../app');
+require('../../pages/pedirWeel/selecUbicacion/selecUbicacion?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/Principal/Principal?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/firstLogin/firstLogin1/firstLogin1?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/firstLogin/firstLogin2/firstLogin2?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');

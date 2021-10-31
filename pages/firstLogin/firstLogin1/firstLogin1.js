@@ -2,7 +2,7 @@ Page({
   data: {},
   onLoad() {},
   siguientePagina(){
-    my.redirectTo({
+    my.navigateTo({
         url: '../firstLogin2/firstLogin2'
       })
   },

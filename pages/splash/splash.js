@@ -4,6 +4,8 @@ Page({
     scale: 12,
     longitude: 120.107822,
     latitude: 30.267023,
+    textpuntopartida: "Punto de partida",
+    textpuntollegada: "Destino",
     primerToque: false,
     nombreActiveUser: "",
     markers: [{
@@ -15,7 +17,7 @@ Page({
       longitude: 0,
       id: 2,
     }],
-   
+
     textInfo: "Selecciona tu punto de partida",
 
   },
@@ -23,6 +25,8 @@ Page({
 
   },
   onReady(e) {
+    console.log(app.globalData.dataUser1.textpuntopartida)
+    console.log(app.globalData.dataUserRegister.textpuntopartida)
     my.showLoading({ content: "Obteniendo Ubicacion ...", });
     var long = 0;
     var lat = 0;
@@ -49,13 +53,17 @@ Page({
     // this.mapCtx.gestureEnable({ isGestureEnable: 1 });
     let estado1 = app.globalData.dataUserRegister.estado;
     let estado2 = app.globalData.dataUser1.estado;
-    if(estado1==1){
-      this.setData({
-        nombreActiveUser: "dataUser1"
+    if (estado1 == 1) {
+      that.setData({
+        nombreActiveUser: "dataUserRegister",
+        textpuntopartida: app.globalData.dataUserRegister.textpuntopartida,
+        textpuntollegada: app.globalData.dataUserRegister.textpuntollegada,
       })
-    }else if(estado2==1){
-      this.setData({
-        nombreActiveUser: "dataUserRegister"
+    } else if (estado2 == 1) {
+      that.setData({
+        nombreActiveUser: "dataUser1",
+        textpuntopartida: app.globalData.dataUser1.textpuntopartida,
+        textpuntollegada: app.globalData.dataUser1.textpuntollegada,
       })
     }
 
@@ -92,24 +100,29 @@ Page({
 
     }
     console.log(this.data);
-    if(that.data.nombreActiveUser == "dataUser1"){
-        app.globalData.dataUser1.puntoPartida.latitude=that.data.markers[0].latitude;
-        app.globalData.dataUser1.puntoPartida.longitude=that.data.markers[0].longitude;
-        app.globalData.dataUser1.puntoLlegada.longitude=that.data.markers[1].longitude;
-        app.globalData.dataUser1.puntoLlegada.latitude=that.data.markers[1].latitude;
-      }else if(that.data.nombreActiveUser=="dataUserRegister"){
-        app.globalData.dataUserRegister.puntoPartida.latitude=that.data.markers[0].latitude;
-        app.globalData.dataUserRegister.puntoPartida.longitude=that.data.markers[0].longitude;
-        app.globalData.dataUserRegister.puntoLlegada.longitude=that.data.markers[1].longitude;
-        app.globalData.dataUserRegister.puntoLlegada.latitude=that.data.markers[1].latitude;
-      }
-      console.log(app.globalData)
+    if (that.data.nombreActiveUser == "dataUser1") {
+      app.globalData.dataUser1.puntoPartida.latitude = that.data.markers[0].latitude;
+      app.globalData.dataUser1.puntoPartida.longitude = that.data.markers[0].longitude;
+      app.globalData.dataUser1.puntoLlegada.longitude = that.data.markers[1].longitude;
+      app.globalData.dataUser1.puntoLlegada.latitude = that.data.markers[1].latitude;
+    } else if (that.data.nombreActiveUser == "dataUserRegister") {
+      app.globalData.dataUserRegister.puntoPartida.latitude = that.data.markers[0].latitude;
+      app.globalData.dataUserRegister.puntoPartida.longitude = that.data.markers[0].longitude;
+      app.globalData.dataUserRegister.puntoLlegada.longitude = that.data.markers[1].longitude;
+      app.globalData.dataUserRegister.puntoLlegada.latitude = that.data.markers[1].latitude;
+    }
+    console.log(app.globalData)
   },
-  onTapProfile(){
+  onTapProfile() {
     my.redirectTo({
-          url: '../profile/mainProfile/mainProfile'
-        });
-  }
+      url: '../profile/mainProfile/mainProfile'
+    });
+  },
+  BuscarSitios(){ 
+    my.redirectTo({
+      url: '../pedirWeel/selecUbicacion/selecUbicacion'
+    });
+  },
 
 
 });

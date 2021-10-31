@@ -1,12 +1,57 @@
 <view class="cont-destinos">
   <view class="pPartida">
     <image class="imageInput" alt="bluedot" mode="aspectFit" src="https://i.ibb.co/YZGWBkk/Punto-Partida.png"/>
-    <input class="inputs" placeholder="Punto de Partida" />
+    <input class="inputs" placeholder="Punto de Partida" value="{{textPuntoPartida}}" onFocus="appearDiv"/>
   </view>
   <view class="pDestino">
     <image class="imageInput" alt="mapmarker" mode="aspectFit" src="https://i.ibb.co/sqmRZjH/Location-Morado.png"/>
-    <input class="inputs" placeholder="Destino" />
+    <input class="inputs" placeholder="Destino" value="{{textPuntoLlegada}} " onFocus="appearDiv"/>
   </view>
 </view>  
 
-    
+<view class="cont-resultados" style="{{style}}">
+  <view class="predeterminados">
+    <view class="item">
+    <view class="itemimg">
+      <image class="img1" mode="aspectFit" src="https://i.ibb.co/MkpL1wt/imageonline-co-overlayed-image.png"/>
+    </view>
+    <view class="itemtext" onTap="sitio1F">
+      <text class="text1">{{sitios.sitio1.nombre}}</text>
+      <text class="text2">{{sitios.sitio1.direccion}}</text>
+    </view>
+    </view>
+    <view class="item">
+      <view class="itemimg">
+      <image class="img1" mode="aspectFit" src="https://i.ibb.co/yPchJbR/imageonline-co-overlayed-image-1.png"/>
+    </view>
+    <view class="itemtext" onTap="sitio2F">
+      <text class="text1">{{sitios.sitio2.nombre}}</text>
+      <text class="text2">{{sitios.sitio2.direccion}}</text>
+    </view>
+    </view>
+    <view class="item">
+      <view class="itemimg">
+      <image mode="aspectFit" src="https://i.ibb.co/1L1VtWm/imageonline-co-overlayed-image-2.png"/>
+    </view>
+    <view class="itemtext" onTap="sitio3F">
+      <text class="text1">{{sitios.sitio3.nombre}}</text>
+      <text class="text2">{{sitios.sitio3.direccion}}</text>
+    </view>
+    </view>
+
+  </view>
+  <view class="recientes">
+  <text class="textrecientes">Recientes</text>
+    <view class="recientesItem">
+      <image mode="aspectFit" src="https://i.ibb.co/80fR8pw/Vector.png"/>
+      <text>Prado</text>
+    </view>
+    <view class="recientesItem">
+      <image mode="aspectFit" src="https://i.ibb.co/80fR8pw/Vector.png"/>
+      <text>Colina Campestre</text>
+    </view>
+    <view class="recientesItem">
+      <image mode="aspectFit" src="https://i.ibb.co/80fR8pw/Vector.png"/>
+      <text>Toberin</text>
+    </view> 
+  </view>

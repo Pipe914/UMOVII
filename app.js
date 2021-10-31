@@ -7,6 +7,8 @@ App({
       nombre: "Juan",
       telefono: "3228529597",
       estado: 0,
+      textpuntopartida: "Punto de partida",
+      textpuntollegada: "Destino",
       puntoPartida: {
         latitude: 0,
         longitude: 0,
@@ -24,6 +26,8 @@ App({
       nombre: "",
       telefono: "",
       estado: 0,
+       textpuntopartida: "Punto de partida",
+      textpuntollegada: "Destino",
       puntoPartida: {
         latitude: 0,
         longitude: 0,
@@ -36,6 +40,28 @@ App({
         modelo: "",
         cupo: 0,
       },
+    },
+    predetSitios: {
+      sitio1: {
+        nombre: "Casa",
+      direccion: "calle 127 #32-15",
+      latitude: 4.726260,
+      longitude: -74.099270,
+      },
+      sitio2: {
+        nombre: "Universidad",
+      direccion: "Universidad de La Sabana - Chia",
+      latitude: 4.863383730147097, 
+      longitude: -74.03375563856136,
+      },
+      sitio3: {
+        nombre: "Portal Norte",
+      direccion: "Calle 170",
+      latitude: 4.75495640683143, 
+      longitude: -74.0455804646636,
+      }
+      
+      
     }
   }
   ,
