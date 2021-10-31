@@ -8,7 +8,7 @@
       {
         "pagePath": "pages/registration/register/register",
         "name": "Register"
-      }
+      } 
     ]
   },
   "pages": [
@@ -24,7 +24,8 @@
     "pages/registration/chooseUserType/chooseUserType",
     "pages/registration/codeEmail/codeEmail",
     "pages/splash/splash",
-    "pages/profile/mainProfile/mainProfile"
+    "pages/profile/mainProfile/mainProfile",
+    "pages/pedirWeel/selecUbicacion/selecUbicacion"
   ],
   "window": {
     "defaultTitle": "UMOVI"
