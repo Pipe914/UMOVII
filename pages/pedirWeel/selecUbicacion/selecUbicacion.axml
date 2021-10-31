@@ -1,0 +1,12 @@
+<view class="cont-destinos">
+  <view class="pPartida">
+    <image class="imageInput" alt="bluedot" mode="aspectFit" src="https://i.ibb.co/YZGWBkk/Punto-Partida.png"/>
+    <input class="inputs" placeholder="Punto de Partida" />
+  </view>
+  <view class="pDestino">
+    <image class="imageInput" alt="mapmarker" mode="aspectFit" src="https://i.ibb.co/sqmRZjH/Location-Morado.png"/>
+    <input class="inputs" placeholder="Destino" />
+  </view>
+</view>  
+
+    
