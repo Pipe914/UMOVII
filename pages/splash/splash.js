@@ -1,9 +1,11 @@
+const app = getApp()
 Page({
   data: {
     scale: 12,
     longitude: 120.107822,
     latitude: 30.267023,
     primerToque: false,
+    nombreActiveUser: "",
     markers: [{
       latitude: 0,
       longitude: 0,
@@ -13,18 +15,7 @@ Page({
       longitude: 0,
       id: 2,
     }],
-    polyline: [{
-      points: [{
-        latitude: 30.267023,
-      longitude: 120.107822,
-      },{
-        latitude: 30.267023,
-      longitude: 120.107822,
-      }],
-      color: "#00000",
-      width: 500,
-      dottedLine: true
-    }],
+   
     textInfo: "Selecciona tu punto de partida",
 
   },
@@ -56,6 +47,15 @@ Page({
     this.mapCtx = my.createMapContext('map')
     this.mapCtx.showsCompass({ isShowsCompass: 0 });
     // this.mapCtx.gestureEnable({ isGestureEnable: 1 });
+    let estado1 = app.globalData.dataUserRegister.estado;
+    let estado2 = app.globalData.dataUser1.estado;
+    if(estado2==1){
+      this.setData({
+        nombreActiveUser: app.globalData.dataUser1
+      })
+    }else if(estado2==1){
+
+    }
 
   },
   SelAdress(e) {
@@ -70,15 +70,16 @@ Page({
           latitude: that.data.markers[1].latitude,
           longitude: that.data.markers[1].longitude,
         }],
-        polyline: [{
-          points: [{
-            latitude: e.latitude,
-          longitude: e.longitude,
-          },{
-            latitude: that.data.markers[1].latitude,
-          longitude: that.data.markers[1].longitude,
-          }]
-        }],
+
+        // polyline: [{
+        //   points: [{
+        //     latitude: e.latitude,
+        //   longitude: e.longitude,
+        //   },{
+        //     latitude: that.data.markers[1].latitude,
+        //   longitude: that.data.markers[1].longitude,
+        //   }]
+        // }],
         primerToque: true,
         // textInfo: "Selecciona tu destino",
         // estilo: "margin-left: auto; marign-right: auto;"
@@ -92,17 +93,9 @@ Page({
           latitude: e.latitude,
           longitude: e.longitude,
         }],
-        polyline: [{
-          points: [{
-            latitude: that.data.markers[0].latitude,
-          longitude: that.data.markers[0].longitude,
-          },{
-            latitude: e.latitude,
-          longitude: e.longitude,
-          }]
-        }],
         primerToque: false,
       })
+
     }
     console.log(this.data);
   }

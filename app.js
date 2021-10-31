@@ -5,7 +5,17 @@ App({
       pass: "unapass1",
       tipoUser: "Pasajero",
       nombre: "Juan",
-      telefono: "Caicedo",
+      telefono: "3228529597",
+      estado:  0,
+      puntoPartida: {
+        latitude: 0,
+      longitude: 0,
+      },
+      puntoLLegada: {
+        latitude: 0,
+      longitude: 0,
+      },
+      
     },
     dataUserRegister: {
       mail: "",
@@ -13,6 +23,15 @@ App({
       tipoUser: "Conductor",
       nombre: "",
       telefono: "",
+      estado:  0,
+      puntoPartida: {
+        latitude: 0,
+      longitude: 0,
+      },
+      puntoLLegada: {
+        latitude: 0,
+      longitude: 0,
+      },
     }
   }
   ,
