@@ -49,7 +49,7 @@ Page({
     // this.mapCtx.gestureEnable({ isGestureEnable: 1 });
     let estado1 = app.globalData.dataUserRegister.estado;
     let estado2 = app.globalData.dataUser1.estado;
-    if(estado2==1){
+    if(estado1==1){
       this.setData({
         nombreActiveUser: "dataUser1"
       })
@@ -104,6 +104,11 @@ Page({
         app.globalData.dataUserRegister.puntoLlegada.latitude=that.data.markers[1].latitude;
       }
       console.log(app.globalData)
+  },
+  onTapProfile(){
+    my.redirectTo({
+          url: '../profile/mainProfile/mainProfile'
+        });
   }
 
 

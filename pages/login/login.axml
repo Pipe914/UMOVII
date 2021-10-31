@@ -6,11 +6,11 @@
   <form class="form" onSubmit="formSubmit">
     <view class="input-field">
       <image mode="aspectFit" class="imageInput" src="https://i.ibb.co/7vSgBJv/Celular.png"/>
-      <input class="iname" placeholder="Correo" name="mail" id="name"/>
+      <input class="iname" value="juanc@unisabana.edu.co" placeholder="Correo" name="mail" id="name"/>
     </view>
     <view class="input-field">
       <image mode="aspectFit" class="imageInput" src="https://i.ibb.co/Q60sBwk/Email.png"/>
-      <input class="ipass" password="true" placeholder="Contraseña" name="pass" id="name"/>
+      <input class="ipass" password="true" value="unapass1" placeholder="Contraseña" name="pass" id="name"/>
     </view>
   
 

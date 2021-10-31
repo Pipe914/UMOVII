@@ -12,12 +12,6 @@
     ]
   },
   "pages": [
-    "pages/pedirWeel/detallesWeels/detallesWeels",
-    "pages/pedirWeel/resultadoBusqueda/resultadoBusqueda",
-    "pages/pedirWeel/selecUbicacion/selecUbicacion",
-    "pages/profile/mainProfile/mainProfile",
-    "pages/registration/chooseUserType/chooseUserType",
-    "pages/splash/splash",
     "pages/Principal/Principal",
     "pages/firstLogin/firstLogin1/firstLogin1",
     "pages/firstLogin/firstLogin2/firstLogin2",
@@ -25,9 +19,16 @@
     "pages/login/login",
     "pages/registration/register/register",
     "pages/registration/VerificationCode/VerificationCode",
-    "pages/registration/registerCar/registerCar"
+    "pages/registration/registerCar/registerCar",
+    "pages/registration/chooseUserType/chooseUserType",
+    "pages/registration/codeEmail/codeEmail",
+    "pages/splash/splash",
+    "pages/pedirWeel/detallesWeels/detallesWeels",
+    "pages/pedirWeel/resultadoBusqueda/resultadoBusqueda",
+    "pages/pedirWeel/selecUbicacion/selecUbicacion",
+    "pages/profile/mainProfile/mainProfile"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "UMOVI"
   }
 }
