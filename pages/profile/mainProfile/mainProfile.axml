@@ -3,7 +3,7 @@
   <image mode="aspectFit" class="imagePerfil" src="https://i.ibb.co/DRkZMk3/Foto-Perfil.jpg"/>
 </view>
 <view class="cont-name">
-  <text class="namePerfil"> ANA MARÍA GÓMEZ</text>
+  <text class="namePerfil">{{nombre}}</text>
 </view>
 <view class="cont-options">
   <view class="options">
@@ -20,5 +20,5 @@
   </view>
 </view>
 <view class="cont-button">
-  <button size="default" type="primary" class="button" formType="submit">Cerrar sesión</button>
+  <button size="default" type="primary" class="button" onTap="onTapCerrarSesion">Cerrar sesión</button>
 </view>

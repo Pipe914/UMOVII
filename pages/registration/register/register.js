@@ -17,17 +17,18 @@ Page({
 
     if (name != "" && pass != "" && tele != "" && maill != "") {
       if (maill.includes("@unisabana.edu.co")) {
-        app.globalData.dataUserRegister.mail = "'" + maill + "'";
-        app.globalData.dataUserRegister.pass = "'" + pass + "";
-        app.globalData.dataUserRegister.nombre = "'" + name + "";
-        app.globalData.dataUserRegister.telefono = "'" + tele + "";
+        app.globalData.dataUserRegister.mail = "" + maill + "";
+        app.globalData.dataUserRegister.pass = "" + pass + "";
+        app.globalData.dataUserRegister.nombre = "" + name + "";
+        app.globalData.dataUserRegister.telefono = "" + tele + "";
+        app.globalData.dataUserRegister.estado = 1;
         my.alert({
           title: "Usuario registrado con exito!",
           buttonText: "Ok",
         });
         my.navigateTo({
-        url: '../VerificationCode/VerificationCode' 
-      });
+          url: '../codeEmail/codeEmail'
+        });
       } else {
         my.alert({
           title: "Debe registrarse con su correo institucional",
@@ -44,11 +45,6 @@ Page({
       });
     }
     console.log(app.globalData.dataUserRegister);
-
-
-
-
-
 
   }
 });

@@ -1,7 +1,7 @@
 <view class="ContenedorPrincipal">
 <view>
   <view class="topbar">
-      <image class="imageprofile" alt="ProfPic" mode="aspectFit" src="https://i.ibb.co/JrF49QP/face.png"/>
+      <image class="imageprofile" alt="ProfPic" mode="aspectFit" onTap="onTapProfile" src="https://i.ibb.co/JrF49QP/face.png"/>
       <image  class="imageicon" alt="bellicon" mode="aspectFit" src="https://i.ibb.co/7R431vk/Path.png"/>
   </view>
   <view class="mapa1">

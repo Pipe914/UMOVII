@@ -13,6 +13,8 @@ Page({
     var user1 = app.globalData.dataUser1;
     var user2 = app.globalData.dataUserRegister;
     if (mail == user1.mail && pass == user1.pass) {
+      app.globalData.dataUser1.estado =1;
+      app.globalData.dataUserRegister.estado =0;
       my.alert({
         title: "Inicio de sesion exitoso",
         content: "Se ha iniciado sesion exitosamente",
@@ -27,6 +29,8 @@ Page({
         });
       }, 3000);
     } else if (mail == user2.mail && pass == user2.pass) {
+      app.globalData.dataUser1.estado =0;
+      app.globalData.dataUserRegister.estado =1;
       my.alert({
         title: "Inicio de sesion exitoso",
         content: "Se ha iniciado sesion exitosamente",

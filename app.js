@@ -6,7 +6,7 @@ App({
       tipoUser: "Pasajero",
       nombre: "Juan",
       telefono: "3228529597",
-      estado: 1,
+      estado: 0,
       puntoPartida: {
         latitude: 0,
         longitude: 0,
@@ -31,6 +31,10 @@ App({
       puntoLlegada: {
         latitude: 0,
         longitude: 0,
+      },
+      carro: {
+        modelo: "",
+        cupo: 0,
       },
     }
   }
