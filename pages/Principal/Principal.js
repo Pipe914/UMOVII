@@ -8,7 +8,7 @@ setTimeout(function() {
   my.navigateTo({
         url: '../firstLogin/firstLogin1/firstLogin1' 
       });
-}, 3000);
+}, 1500);
  
   }
 });

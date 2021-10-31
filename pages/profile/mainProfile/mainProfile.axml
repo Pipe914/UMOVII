@@ -1,11 +1,24 @@
-<view>
-  <view class="cont-image-perfil">
-    <image mode="aspectFit" class="imagePerfil" src="https://i.ibb.co/B48gS9j/Foto-Perfil.png"/>
+
+<view class="cont-image-perfil">
+  <image mode="aspectFit" class="imagePerfil" src="https://i.ibb.co/DRkZMk3/Foto-Perfil.jpg"/>
+</view>
+<view class="cont-name">
+  <text class="namePerfil"> ANA MARÍA GÓMEZ</text>
+</view>
+<view class="cont-options">
+  <view class="options">
+    <image mode="aspectFit" class="imageOption" src="https://i.ibb.co/2dG30Pf/Favoritos.png"/>
+    <text class="nameOption"> Favoritos</text>
   </view>
-  <view class="cont-name">
-    
+  <view class="options">
+    <image mode="aspectFit" class="imageOption" src="https://i.ibb.co/DWq1j3R/Pagos.png"/>
+    <text class="nameOption"> Pagos</text>
   </view>
-  <view class="cont-options">
-    
+  <view class="options">
+    <image mode="aspectFit" class="imageOption" src="https://i.ibb.co/MnXhRtK/Configuracion.png"/>
+    <text class="nameOption"> Configuración</text>
   </view>
+</view>
+<view class="cont-button">
+  <button size="default" type="primary" class="button" formType="submit">Cerrar sesión</button>
 </view>
