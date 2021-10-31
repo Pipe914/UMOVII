@@ -12,6 +12,7 @@
     ]
   },
   "pages": [
+    "pages/pedirWeel/selecUbicacion/selecUbicacion",
     "pages/profile/mainProfile/mainProfile",
     "pages/registration/chooseUserType/chooseUserType",
     "pages/splash/splash",
@@ -21,8 +22,8 @@
     "pages/firstLogin/firstLogin3/firstLogin3",
     "pages/login/login",
     "pages/registration/register/register",
-    "pages/VerificationCode/VerificationCode",
-    "pages/registerCar/registerCar"
+    "pages/registration/VerificationCode/VerificationCode",
+    "pages/registration/registerCar/registerCar"
   ],
   "window": {
     "defaultTitle": "My App"

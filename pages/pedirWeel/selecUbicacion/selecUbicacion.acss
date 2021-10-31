@@ -1,0 +1,50 @@
+page{
+  background: rgb(221, 221, 221);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cont-destinos{
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .3rem;
+  width: 90%;
+  height: 3rem;
+  padding-bottom: .2rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: .3rem;
+
+}
+
+.pPartida{
+  display: inline-block;
+  margin-left: .2rem;
+  margin-top: .2rem;
+  width: 90%;
+  height: 40%;
+  border-bottom: 1.5px solid #E5E7EB;
+  margin-bottom: -.2rem;
+}
+
+.pDestino{
+  display: inline-block;
+  margin-left: .2rem;
+  margin-top: .2rem;
+  width: 90%;
+  height: 50%;
+  margin-top: .5rem;
+}
+
+.imageInput{
+  width: .8rem;
+  height: .8rem;
+}
+
+.inputs{
+  margin: auto;
+}
