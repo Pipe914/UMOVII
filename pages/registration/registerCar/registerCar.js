@@ -7,7 +7,7 @@ Page({
     let cupo = e.detail.value.cupo;
     if (modelo != "" && cupo != "") {
       if (app.globalData.dataUserRegister.tipoUser == "Conductor") {
-        app.globalData.dataUserRegister.carro.modelo = "'" + modelo + "'";
+        app.globalData.dataUserRegister.carro.modelo = "" + modelo + "";
         app.globalData.dataUserRegister.carro.cupo = cupo;
         my.alert({
           title: "Registro exitoso",

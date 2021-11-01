@@ -7,15 +7,19 @@
       <image class="image-perfil" mode="aspectFill" src="https://i.ibb.co/NmXxPbf/Perfil1.png"/>
     </view>
     <view class="cont-Nombre">
-      <text class="name" numer-of-lines="2">Juan Caicedo
+      <text class="name" numer-of-lines="2" a:if="{{nombreActivo==''}}">Juan Caicedo
       5:00 PM</text>
+      <text class="name" numer-of-lines="2" a:if="{{nombreActivo!=''}}">{{nombreActivo}}
+      {{hora}}</text>
     </view>
     <view class="cont-button">
-      <button size="default" type="primary" onTap="popUp" class="button" formType="submit">$3000</button>
+      <button size="default" type="primary" onTap="popUp" class="button"  a:if="{{nombreActivo==''}}">$3000</button>
+      <button size="default" type="primary" onTap="popUp" class="button"  a:if="{{nombreActivo!=''}}">${{precio}}</button>
     </view>
   </view>
   <view class="cont-mapa">
-    <image class="image-map" mode="aspectFill " src="https://i.ibb.co/hCV6gdd/Map-Busqueda.png"/>
+    <!-- <image class="image-map" mode="aspectFill " src="https://i.ibb.co/hCV6gdd/Map-Busqueda.png"/> -->
+    <map id="map"  scale="10" class="image-map" show-location markers="{{markers}}" ></map>
   </view>
 </view>
 <view class="cont-ruta2">

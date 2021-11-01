@@ -24,7 +24,7 @@
       </view>
     </view>
     <view class="boton">
-      <button size="default" type="primary" class="botonConfirmar"><text>Confirmar</text><image  mode="aspectFit" src="https://i.ibb.co/yn2t2W7/Arrow-Narrow-Right-Outline.png"/></button>
+      <button size="default" type="primary" class="botonConfirmar" onTap="pasarPagina"><text>Confirmar</text><image  mode="aspectFit" src="https://i.ibb.co/yn2t2W7/Arrow-Narrow-Right-Outline.png"/></button>
     </view>
   </view>
   </view>

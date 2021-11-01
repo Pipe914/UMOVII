@@ -1,3 +1,4 @@
+<form class="form"  onSubmit="formSubmit" >
 <view class="cont-form">
   <view class="cont-titulo">
     <text class="titulo">Detalla tu Viaje</text>
@@ -5,7 +6,7 @@
   <view class="cont-image">
     <image class="image-carro" mode="aspectFit" src="https://i.ibb.co/pRzK7GN/Carro.png"/>
   </view>
-  <form class="form" >
+  
     <view  class="input-field">
       <input class="iname" placeholder="Modelo" name="modelo" id="model"/>
     </view>
@@ -18,12 +19,13 @@
     </view>
     <view  class="input-field2">
       <image mode="aspectFit" class="imageInput2" src="https://i.ibb.co/fX3yqvr/Hora.png"/>
-      <input class="icorreo" placeholder="Hora" name="mail" id="name"/>
+      <input class="icorreo" placeholder="Hora" name="hora" id="name"/>
     </view>
-</form>
+
 
 </view>
 
 <view class="cont-button">
   <button size="default" type="primary" class="button" formType="submit">Ofertar</button>
 </view>
+</form>

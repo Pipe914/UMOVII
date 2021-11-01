@@ -40,6 +40,10 @@ App({
         modelo: "",
         cupo: 0,
       },
+      viaje: {
+        precio: 0,
+        hora: "00:00"
+      }
     },
     predetSitios: {
       sitio1: {
